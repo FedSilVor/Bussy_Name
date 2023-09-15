@@ -2,13 +2,11 @@
 #include <string>
 
 bool month_checker(int month, int day){
-    if((month == 1 || month == 3 || month == 5 || month == 7 || month == 8 || month == 10 || month == 12)){
-        return false; //it's a true date.
-    }else if((month == 2 && day <= 29) || (month == 4 && day <= 30) || (month == 6 && day <= 30) || (month == 9 && day <= 30) || (month == 11 && day <= 30)){
-        return false; //it's a true date.
-    }else{
+    if((month == 2 && day > 29) || (month == 4 && day > 30) || (month == 6 && day > 30) || (month == 9 && day > 30) || (month == 11 && day > 30)){
         std::cout << "\nM-Master this is n-not a real date TwT\nP-Please c-c-change y-your date!! >w<\n\n";
-        return true; //it's not a true date.
+        return true; //Not a real date, the code will loop.
+    }else{
+        return false; //A real date, the code will not loop.
     }
 }
 
