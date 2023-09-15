@@ -1,5 +1,5 @@
 # What's your bussy's name? Let's find out!
-The concept is very simple: **Astolfo will help you finding your bussy's name from your birthday!** I took inspiration from this meme that a friend of mine sent me on Discord:
+The concept is very simple: **Astolfo will help you finding your bussy's name from your birthdate!** I took inspiration from this meme that a friend of mine sent me on Discord:
 
 *(this one)*
 
